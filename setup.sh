@@ -22,6 +22,7 @@ unset $username
 echo -e "\n*** Updating and upgrading the system **"
 sudo apt update
 sudo apt full-upgrade -y
+sudo apt autoremove --yes
 echo -e "\n*** Completed the system update ***"
 
 # Reboot the system
